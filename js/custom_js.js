@@ -1,17 +1,17 @@
 $(document).ready(function () {
 	var TrueValue = true;
-	$('.show_my_info').on('click', function () {
-		if (TrueValue == true) {
-		$('.info_side').css('transform', 'scale(1)');
-			TrueValue = false;
-			$('.show_my_info h6').text('galary')
-		} else {
-			$('.info_side').css('transform', 'scale(0)');
-			$('.show_my_info h6').text('my info')
+	// $('.show_my_info').on('click', function () {
+	// 	if (TrueValue == true) {
+	// 	$('.info_side').css('transform', 'scale(1)');
+	// 		TrueValue = false;
+	// 		$('.show_my_info h6').text('galary')
+	// 	} else {
+	// 		$('.info_side').css('transform', 'scale(0)');
+	// 		$('.show_my_info h6').text('my info')
 
-			TrueValue = true;
-		}
-	})
+	// 		TrueValue = true;
+	// 	}
+	// })
 
 	$('.list_chose2 span').click(function () {
 		$('.list_chose2 span').removeClass('active');
